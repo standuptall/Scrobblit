@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<DIZIONARIO>
+   <TASTI>
+       <TASTO ID="rileva">
+             <ITALIANO>Rileva Tracce</ITALIANO>
+             <INGLESE>Detect tracks</INGLESE>
+       </TASTO>
+       <TASTO ID="selezionaTutto">
+             <ITALIANO>Seleziona tutto</ITALIANO>
+             <INGLESE>Select All</INGLESE>
+       </TASTO>
+       <TASTO ID="deselezionaTutto">
+             <ITALIANO>Deseleziona tutto</ITALIANO>
+             <INGLESE>Deselect all</INGLESE>
+       </TASTO>
+       <TASTO ID="scrobbla">
+             <ITALIANO>Scrobbla</ITALIANO>
+             <INGLESE>Scrobble</INGLESE>
+       </TASTO>
+       <TASTO ID="about">
+             <ITALIANO>About</ITALIANO>
+             <INGLESE>About</INGLESE>
+       </TASTO>
+       <TASTO ID="copiaDatabase">
+             <ITALIANO>Copia file di database</ITALIANO>
+             <INGLESE>Copy database file</INGLESE>
+       </TASTO>
+       <TASTO ID="esci">
+             <ITALIANO>Esci</ITALIANO>
+             <INGLESE>Exit</INGLESE>
+       </TASTO>
+       <TASTO ID="cambiaLingua">
+             <ITALIANO>Switch to english language</ITALIANO>
+             <INGLESE>Cambia lingua in italiano</INGLESE>
+       </TASTO>
+       <TASTO ID="annulla">
+             <ITALIANO>Annulla</ITALIANO>
+             <INGLESE>Undo</INGLESE>
+       </TASTO>
+       <TASTO ID="disconnetti">
+             <ITALIANO>Disconnetti</ITALIANO>
+             <INGLESE>Disconnect</INGLESE>
+       </TASTO>
+       <TASTO ID="aiuto">
+             <ITALIANO>Info</ITALIANO>
+             <INGLESE>About</INGLESE>
+       </TASTO>
+   </TASTI>
+   <LABELS>
+       <LABEL ID="selectedTracks">
+              <ITALIANO> tracce selezionate</ITALIANO>
+              <INGLESE> selected tracks</INGLESE> 
+       </LABEL>
+       <LABEL ID="loggedAs">
+              <ITALIANO>Autenticato come </ITALIANO>
+              <INGLESE>Logged as </INGLESE> 
+       </LABEL>
+       <LABEL ID="immettiCredenziali">
+              <ITALIANO>Immetti il nome utente e la password di last.fm. </ITALIANO>
+              <INGLESE>Type your last.fm's username and password.</INGLESE> 
+       </LABEL>
+       <LABEL ID="nomeUtente">
+              <ITALIANO>Nome utente: </ITALIANO>
+              <INGLESE>Username: </INGLESE> 
+       </LABEL>
+       <LABEL ID="memorizzaPass">
+              <ITALIANO>Memorizza la password</ITALIANO>
+              <INGLESE>Remember my password</INGLESE> 
+       </LABEL>
+       <LABEL ID="artista">
+              <ITALIANO>Artista</ITALIANO>
+              <INGLESE>Artist</INGLESE> 
+       </LABEL>
+       <LABEL ID="titolo">
+              <ITALIANO>Titolo</ITALIANO>
+              <INGLESE>Title</INGLESE> 
+       </LABEL>
+       <LABEL ID="dataUltimoAscolto">
+              <ITALIANO>Ultimo ascolto</ITALIANO>
+              <INGLESE>Last play</INGLESE> 
+       </LABEL>
+       <LABEL ID="nome">
+              <ITALIANO>Nome: </ITALIANO>
+              <INGLESE>Name: </INGLESE> 
+       </LABEL>
+       <LABEL ID="indirizzo">
+              <ITALIANO>Indirizzo e-mail: </ITALIANO>
+              <INGLESE>E-mail adddress: </INGLESE> 
+       </LABEL>
+       <LABEL ID="testo">
+              <ITALIANO>Testo: </ITALIANO>
+              <INGLESE>Text: </INGLESE> 
+       </LABEL>
+       <LABEL ID="contact">
+              <ITALIANO>Contatta l'autore</ITALIANO>
+              <INGLESE>Contact</INGLESE> 
+       </LABEL>
+   </LABELS>
+   <MESSAGGI>
+        <MESSAGGIO ID="auth">
+              <ITALIANO><![CDATA[<html>Scrobblit non ha ancora ottenuto i permessi sul tuo account.<br/>Vuoi autenticarti ora?</html>]]></ITALIANO>
+              <INGLESE><![CDATA[<html>You didn't give to Scrobblit the permissions to use your account.<br/>Would you authenticate now? ]]></INGLESE>
+        </MESSAGGIO>
+        <MESSAGGIO ID="error">
+              <ITALIANO>"Si è verificato un errore"</ITALIANO>
+              <INGLESE>An error is occured. Scrobblit will closed.</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="success">
+              <ITALIANO> tracce inviate correttamente e </ITALIANO>
+              <INGLESE> tracks sent </INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="rejected">
+              <ITALIANO> rifiutate.</ITALIANO>
+              <INGLESE> rejected.</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="authConfirm">
+              <ITALIANO>Consentire all'applicazione di accedere all'account\ndopodiché ritornare e premere \"Si\"</ITALIANO>
+              <INGLESE>Allow access in your browser and after click on \"Yes\"</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="noTracks">
+              <ITALIANO>Nessuna traccia rilevata. Prova ad ascoltare una canzone su iTunes.</ITALIANO>
+              <INGLESE>No track detected. Try to listen songs on iTunes</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="confirmTrack1">
+              <ITALIANO>Verranno inviate </ITALIANO>
+              <INGLESE>Will be sent </INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="confirmTrack2">
+              <ITALIANO> tracce a last.fm. Confermi?</ITALIANO>
+              <INGLESE> tracks to last.fm. Confirm?</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="about">
+              <ITALIANO><![CDATA[<html>Scrobblit versione 2.02<br/> Sviluppato da Alberto Zichittella<br/>http://www.last.fm/user/otrebla86<br/> a.zichittella@gmail.com</html>]]></ITALIANO>
+              <INGLESE><![CDATA[<html>Scrobblit version 2.02<br/>  Developed by Alberto Zichittella <br/>http://www.last.fm/user/otrebla86 <br/>a.zichittella@gmail.com</html>]]></INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="databaseQuest">
+              <ITALIANO>Copiare il file di database?</ITALIANO>
+              <INGLESE>Copy database file?</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="databaseSucc">
+              <ITALIANO>Il file è stato copiato correttamente.</ITALIANO>
+              <INGLESE>The file was successfully copied.</INGLESE>
+        </MESSAGGIO>
+   	<MESSAGGIO ID="nuovaVersione">
+              <ITALIANO>È disponibile una nuova versione di Scrobblit. Vuoi scaricarla adesso?</ITALIANO>
+              <INGLESE>A new version of Scrobblit is available. Do you want to download it now?</INGLESE>
+        </MESSAGGIO>
+        <MESSAGGIO ID="riavvia">
+              <ITALIANO>Dovrai riavviare Scrobblit affinché le modifiche abbiano effetto.</ITALIANO>
+              <INGLESE>You need to restart the application for the language change to take effect.</INGLESE>
+        </MESSAGGIO>
+        <MESSAGGIO ID="userPassErrati">
+              <ITALIANO>Nome utente o password errati.</ITALIANO>
+              <INGLESE>Invalid username or password.</INGLESE>
+        </MESSAGGIO>
+        <MESSAGGIO ID="campiVuoti">
+              <ITALIANO>Uno o più campi sono vuoti!</ITALIANO>
+              <INGLESE>One or more fields are empty!</INGLESE>
+        </MESSAGGIO>
+        <MESSAGGIO ID="emailNonValida">
+              <ITALIANO>L'indirizzo e-mail non è valido. Inseriscine uno valido affinché io possa rispondere.</ITALIANO>
+              <INGLESE>The e-mail address is not valid. Type a valid e-mail address so I can answer you! </INGLESE>
+        </MESSAGGIO>
+   </MESSAGGI>
+</DIZIONARIO>
